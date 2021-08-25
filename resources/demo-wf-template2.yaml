@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
   creationTimestamp: null
-  name: demo-workflow-template
+  name: demo-workflow-template2
   namespace: local-runtime
 spec:
   arguments: {}
