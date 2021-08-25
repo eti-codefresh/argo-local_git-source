@@ -18,5 +18,5 @@ spec:
       resources: {}
     inputs: {}
     metadata: {}
-    name: whalesay3
+    name: whalesay
     outputs: {}
