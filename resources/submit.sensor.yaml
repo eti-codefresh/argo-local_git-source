@@ -10,9 +10,6 @@ spec:
     - name: git-push
       eventSourceName: github
       eventName: push
-    - name: git-push-2
-      eventSourceName: github-another
-      eventName: push
   triggers:
     - template:
         conditions: "git-push"
