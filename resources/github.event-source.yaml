@@ -17,7 +17,7 @@ spec:
         endpoint: /
         port: "12000"
         method: POST
-        url: http://098b-31-154-69-186.ngrok.io
+        url: http://5988-31-154-69-186.ngrok.io
       # https://developer.github.com/v3/activity/events/types/
       events:
         - "push"
