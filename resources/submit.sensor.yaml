@@ -4,7 +4,7 @@ metadata:
   name: submit
 spec:
   template:
-    serviceAccountName: argo-server
+#    serviceAccountName: argo-server
   eventBusName: codefresh-eventbus
   dependencies:
     - name: git-push
