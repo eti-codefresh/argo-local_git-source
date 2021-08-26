@@ -30,8 +30,7 @@ spec:
                 generateName: submit-namespaced-
               spec:
                 workflowTemplateRef:
-                  # using template from sensor's namespace local-cf-10
-                  name: whalesay
+                  name: demo-workflow-template
     - template:
         conditions: "git-push"
         name: trigger-cluster
@@ -49,4 +48,4 @@ spec:
               spec:
                 workflowTemplateRef:
                   clusterScope: true
-                  name: whalesay-cluster
+                  name: demo-workflow-template2
